@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "test"
+  repo-url: https://github.com/briantt12/test
+  repo-actions: [issue, source]
+  repo-branch: gh-pages
+  navbar:
+    pinned: true
+    tools:
+      - icon: github
+        href: https://github.com/briantt12/test
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
